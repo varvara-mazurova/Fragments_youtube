@@ -16,18 +16,17 @@ public class MainActivity extends AppCompatActivity {
     private Button button_A, button_B, button_C, button_D, button_settings, button_profile;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button_A = findViewById(R.id.button_A);
+/*      button_A = findViewById(R.id.button_A);
         button_B = findViewById(R.id.button_B);
         button_C = findViewById(R.id.button_C);
         button_D = findViewById(R.id.button_D);
         button_settings = findViewById(R.id.button_settings);
-        button_profile = findViewById(R.id.button_profile);
+        button_profile = findViewById(R.id.button_profile);*/
 
         MainFragment mainFragment = new MainFragment();
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
